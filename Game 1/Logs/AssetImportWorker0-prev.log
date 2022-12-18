@@ -1,0 +1,307 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 15920 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56704
+Successfully changed project path to: C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
+C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 335.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P1000 (ID=0x1cbb)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   31.0.15.1713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.035993 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 300.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2512ms)
+		BeginReloadAssembly (292ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1727ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1026ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (301ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (509ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.027952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3544ms)
+		BeginReloadAssembly (430ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (2600ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (813ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (278ms)
+				ProcessInitializeOnLoadAttributes (798ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (88.1 KB). Loaded Objects now: 3687.
+Memory consumption went from 110.9 MB to 110.8 MB.
+Total: 4.172400 ms (FindLiveObjects: 0.343100 ms CreateObjectMapping: 0.216200 ms MarkObjects: 3.499300 ms  DeleteObjects: 0.112600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 164430.460719 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(97856cd8acf87924f93cc6c4db453ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(97856cd8acf87924f93cc6c4db453ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e1107ba2086a0df9262dc9dae472ad') in 0.027004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.274477 seconds.
+  path: Assets/Asset packs
+  artifactKey: Guid(97856cd8acf87924f93cc6c4db453ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs using Guid(97856cd8acf87924f93cc6c4db453ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d366435bed894b2c3ca9c03c9d18166') in 0.013904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.366945 seconds.
+  path: Assets/Asset packs/Modern tiles_Free
+  artifactKey: Guid(cbfa1832614197d44929a9935fdd7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free using Guid(cbfa1832614197d44929a9935fdd7fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f48d78b10230e61e6a157cc006801fe') in 0.011727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.255370 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/free_overview.png
+  artifactKey: Guid(b6ae586798b6d7a49a145959b3670be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/free_overview.png using Guid(b6ae586798b6d7a49a145959b3670be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a71fabc96b33c7bfc8a055ff4f3825') in 0.248726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803939 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free
+  artifactKey: Guid(1d2da1d7d69e2004db32d9aad6c8b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free using Guid(1d2da1d7d69e2004db32d9aad6c8b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5bb4a6142e9e4f336f48a61f11e7ce') in 0.011544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093147 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_16x16.png
+  artifactKey: Guid(a5ec6b82f7e518440a0f685f232d7a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_16x16.png using Guid(a5ec6b82f7e518440a0f685f232d7a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21d662451d843d5531d126fe4057760') in 0.048076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013134 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_sit3_16x16.png
+  artifactKey: Guid(352e5849fe87f924a9ec0337946d8792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_sit3_16x16.png using Guid(352e5849fe87f924a9ec0337946d8792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39993902b7e92f492d6d19645f0251b5') in 0.049100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_idle_anim_16x16.png
+  artifactKey: Guid(d6063ce0936e8d640bd40fc7c563ab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_idle_anim_16x16.png using Guid(d6063ce0936e8d640bd40fc7c563ab9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b78ba2922386ee0ecb378e6d4fd3779') in 0.045637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit2_16x16.png
+  artifactKey: Guid(b839e69928b9ad74e82ed2ce78106ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit2_16x16.png using Guid(b839e69928b9ad74e82ed2ce78106ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef912b230e8d31771090caac00d8af8a') in 0.041214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit_16x16.png
+  artifactKey: Guid(43ca817dfb088a448abf493148045b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit_16x16.png using Guid(43ca817dfb088a448abf493148045b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbff05deeec40c8f6b9e651c7a6eccb7') in 0.041832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_idle_anim_16x16.png
+  artifactKey: Guid(eaaad6e2137b6624cbf90ef18d5ffb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_idle_anim_16x16.png using Guid(eaaad6e2137b6624cbf90ef18d5ffb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e05d7cde6a7a3e2f7980a6d6eb1dc2') in 0.033081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png
+  artifactKey: Guid(4c206f38b01d3b144b0a716a8701bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_idle_16x16.png using Guid(4c206f38b01d3b144b0a716a8701bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2ecaa5a1d69968b2f4f8247756d5b7') in 0.024629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_idle_16x16.png
+  artifactKey: Guid(eb9e4df8bbc672b46a7bfe986eb16b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_idle_16x16.png using Guid(eb9e4df8bbc672b46a7bfe986eb16b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3608910594a9cad76451e611ae6db84d') in 0.023785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_16x16.png
+  artifactKey: Guid(1d5d1eeb7eea3394bab1465a79788ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_16x16.png using Guid(1d5d1eeb7eea3394bab1465a79788ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4314822fb5bb78319553e2ee3390c1') in 0.024183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_sit_16x16.png
+  artifactKey: Guid(88f48e0735bb1b8469954b1785fe6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_sit_16x16.png using Guid(88f48e0735bb1b8469954b1785fe6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b3b4d4cdf760d3b74e5399970aa945') in 0.025134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_run_16x16.png
+  artifactKey: Guid(375cf345e293fb74f9aa259fd56c1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_run_16x16.png using Guid(375cf345e293fb74f9aa259fd56c1803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2d3689dbfe9bfbd9c1960565d966e') in 0.024958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_sit_16x16.png
+  artifactKey: Guid(33914feec4edb01469b1bc95b96235d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Adam_sit_16x16.png using Guid(33914feec4edb01469b1bc95b96235d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bb583b6cf12ad4ef79d58be88a5bf5') in 0.026446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_sit3_16x16.png
+  artifactKey: Guid(22ac8005d9a51aa419fead4d858da6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_sit3_16x16.png using Guid(22ac8005d9a51aa419fead4d858da6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68acc3004c04a843f29b27899e3fd8b3') in 0.026922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_16x16.png
+  artifactKey: Guid(70414f07336c74d45857c2f40399d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_16x16.png using Guid(70414f07336c74d45857c2f40399d9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d49db0fc8cacbc382c3e75404a9133') in 0.024136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_run_16x16.png
+  artifactKey: Guid(3e72dd33aa8ae594399975a10c9f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_run_16x16.png using Guid(3e72dd33aa8ae594399975a10c9f35f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8a025cf5c17870a122f752908cd841') in 0.023882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_sit3_16x16.png
+  artifactKey: Guid(a0f452a849849564e913980ae8655ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Amelia_sit3_16x16.png using Guid(a0f452a849849564e913980ae8655ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41644bac4cf53f2f767803834a5fe0b') in 0.024443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_sit2_16x16.png
+  artifactKey: Guid(9f0fc1ca2667f864b9db2263fbc45d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Alex_sit2_16x16.png using Guid(9f0fc1ca2667f864b9db2263fbc45d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd70dd01f7dcda2de2a4167590aec17') in 0.026044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_idle_16x16.png
+  artifactKey: Guid(a78e9897367a7f54ab94836e2ce30556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_idle_16x16.png using Guid(a78e9897367a7f54ab94836e2ce30556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086e3dd2f6c21f39113e58e2511cb7ac') in 0.025949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit3_16x16.png
+  artifactKey: Guid(d3a5097f38fddb5448ed9bc19e83858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset packs/Modern tiles_Free/Characters_free/Bob_sit3_16x16.png using Guid(d3a5097f38fddb5448ed9bc19e83858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a72fbbbfa8eeb0b454b17ecd7c16c39') in 0.023030 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
