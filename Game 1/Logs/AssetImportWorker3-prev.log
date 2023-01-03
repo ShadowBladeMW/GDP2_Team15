@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.13f1 (9e7d58001ecf) revision 10386776'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 15920 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 15920 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
+C:\Program Files\Unity 2021.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
+C:/Users/20193308/Desktop/Game/GDP2_Team15/Game 1
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-56704
-Successfully changed project path to: C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
-C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
+56989
+Successfully changed project path to: C:/Users/20193308/Desktop/Game/GDP2_Team15/Game 1
+C:/Users/20193308/Desktop/Game/GDP2_Team15/Game 1
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,458 +47,117 @@ C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 214.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 363.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/20193703/Documents/GitGut/Game Design 2/GDP2_Team15/Game 1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20193308/Desktop/Game/GDP2_Team15/Game 1/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA Quadro P1000 (ID=0x1cbb)
-    Vendor:   NVIDIA
-    VRAM:     4019 MB
-    Driver:   31.0.15.1713
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     7960 MB
+    Driver:   27.20.100.8729
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Mono path[0] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.030420 seconds.
+Register platform support module: C:/Program Files/Unity 2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023579 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 275.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 422.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.516 seconds
+- Completed reload, in  2.436 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2517ms)
-		BeginReloadAssembly (261ms)
+	ReloadAssembly (2438ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1787ms)
-			LoadAssemblies (251ms)
+		EndReloadAssembly (1760ms)
+			LoadAssemblies (236ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (99ms)
-			SetupLoadedEditorAssemblies (1100ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (1101ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (276ms)
+				RefreshPlugins (423ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (581ms)
-				ProcessInitializeOnLoadMethodAttributes (211ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027461 seconds.
+Registered in 0.035453 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\20193308\Desktop\Game\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\20193308\Desktop\Game\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 390.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.659 seconds
+- Completed reload, in  4.435 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3662ms)
-		BeginReloadAssembly (369ms)
+	ReloadAssembly (4439ms)
+		BeginReloadAssembly (373ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (25ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2783ms)
-			LoadAssemblies (248ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (3617ms)
+			LoadAssemblies (285ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (888ms)
+			SetupTypeCache (1000ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (140ms)
-			SetupLoadedEditorAssemblies (1372ms)
+			RebuildScriptCaches (161ms)
+			SetupLoadedEditorAssemblies (2062ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (348ms)
-				ProcessInitializeOnLoadAttributes (844ms)
-				ProcessInitializeOnLoadMethodAttributes (117ms)
-				AfterProcessingInitializeOnLoad (37ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (391ms)
+				BeforeProcessingInitializeOnLoad (429ms)
+				ProcessInitializeOnLoadAttributes (1095ms)
+				ProcessInitializeOnLoadMethodAttributes (100ms)
+				AfterProcessingInitializeOnLoad (34ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (88.1 KB). Loaded Objects now: 3687.
-Memory consumption went from 111.0 MB to 110.9 MB.
-Total: 13.963600 ms (FindLiveObjects: 0.968400 ms CreateObjectMapping: 0.885700 ms MarkObjects: 11.692700 ms  DeleteObjects: 0.412800 ms)
+Unloading 4386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (87.7 KB). Loaded Objects now: 4844.
+Memory consumption went from 164.1 MB to 164.0 MB.
+Total: 11.686900 ms (FindLiveObjects: 0.750400 ms CreateObjectMapping: 0.665600 ms MarkObjects: 10.061700 ms  DeleteObjects: 0.206900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011007 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.885 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2887ms)
-		BeginReloadAssembly (246ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (2451ms)
-			LoadAssemblies (141ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (678ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (144ms)
-			SetupLoadedEditorAssemblies (1246ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (274ms)
-				ProcessInitializeOnLoadAttributes (776ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3260 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (54.4 KB). Loaded Objects now: 3727.
-Memory consumption went from 112.2 MB to 112.2 MB.
-Total: 9.645000 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.293400 ms MarkObjects: 8.778400 ms  DeleteObjects: 0.142600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012650 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.645 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2647ms)
-		BeginReloadAssembly (280ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (2108ms)
-			LoadAssemblies (219ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (547ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (134ms)
-			SetupLoadedEditorAssemblies (1092ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (207ms)
-				ProcessInitializeOnLoadAttributes (700ms)
-				ProcessInitializeOnLoadMethodAttributes (110ms)
-				AfterProcessingInitializeOnLoad (31ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (54.3 KB). Loaded Objects now: 3740.
-Memory consumption went from 112.5 MB to 112.4 MB.
-Total: 9.796500 ms (FindLiveObjects: 1.431300 ms CreateObjectMapping: 0.404500 ms MarkObjects: 7.795000 ms  DeleteObjects: 0.163100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015015 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\20193703\Documents\GitGut\Game Design 2\GDP2_Team15\Game 1\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 209.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.146 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3148ms)
-		BeginReloadAssembly (414ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (23ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (108ms)
-		EndReloadAssembly (2315ms)
-			LoadAssemblies (301ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (668ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (129ms)
-			SetupLoadedEditorAssemblies (1126ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (29ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (210ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (590ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (195.6 KB). Loaded Objects now: 4502.
-Memory consumption went from 150.3 MB to 150.1 MB.
-Total: 8.339200 ms (FindLiveObjects: 0.574500 ms CreateObjectMapping: 0.550700 ms MarkObjects: 6.829900 ms  DeleteObjects: 0.377000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 166472.670092 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Room_Builder_free_16x16.png
-  artifactKey: Guid(c6f6901a3101e4e4688845784f848c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Room_Builder_free_16x16.png using Guid(c6f6901a3101e4e4688845784f848c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d29dfa46003b74f4312daa9762990') in 0.160635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 466.642660 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_0.asset
-  artifactKey: Guid(4d95ebd2f868b3144ab05971041e2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_0.asset using Guid(4d95ebd2f868b3144ab05971041e2263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c5248df4e17870efc8d035b77c2df') in 0.162748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_23.asset
-  artifactKey: Guid(99363dea5c668fe4f9f81f57ae701dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_23.asset using Guid(99363dea5c668fe4f9f81f57ae701dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3800207d895f56c613c7837e61650c70') in 0.027888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_32.asset
-  artifactKey: Guid(726e9343e5a725641991113cfe5ef820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_32.asset using Guid(726e9343e5a725641991113cfe5ef820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c19f90da5996c56306491f83781bd0') in 0.026448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_38.asset
-  artifactKey: Guid(7a2f1a50e92dd904ab4217eb2b2122f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_38.asset using Guid(7a2f1a50e92dd904ab4217eb2b2122f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4d9a7d9a889cabab96b7aec087e719') in 0.023656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_9.asset
-  artifactKey: Guid(3c186c62c6cfc7748b18c4783f3e9751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_9.asset using Guid(3c186c62c6cfc7748b18c4783f3e9751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e32791c3fd61db32f269cf2bbbe8a01') in 0.021557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_31.asset
-  artifactKey: Guid(345ad15530f8d514fa7ee77133026d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_31.asset using Guid(345ad15530f8d514fa7ee77133026d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94083521d70b6f501a1bdb6e6568cfc9') in 0.020221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_39.asset
-  artifactKey: Guid(40fe59cd562a821498b9b2abfac5cfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_39.asset using Guid(40fe59cd562a821498b9b2abfac5cfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec27aa7ae3b5cb00983c92ba8aa617a') in 0.022582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_10.asset
-  artifactKey: Guid(d900d6028f9022245b0839a4a9982d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_10.asset using Guid(d900d6028f9022245b0839a4a9982d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6a2b3dac77d1e82daf992bc47baf4c') in 0.024126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_44.asset
-  artifactKey: Guid(47e7528c920432f46816e56d3281429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_44.asset using Guid(47e7528c920432f46816e56d3281429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131b7ee0f5922dcdd76b4aa1291dde6e') in 0.023629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_41.asset
-  artifactKey: Guid(a02389800ddf00d408e7bd95af2d642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_41.asset using Guid(a02389800ddf00d408e7bd95af2d642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736b6ab9b55eb85cbd6cba885788af21') in 0.022121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_45.asset
-  artifactKey: Guid(4117fb9236598ea4e883f5c2a9ced793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_45.asset using Guid(4117fb9236598ea4e883f5c2a9ced793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3308f99c8849a7b119d9eaba1f0022') in 0.023304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_36.asset
-  artifactKey: Guid(a1f4f2a849321664a96a7b97e9db121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_36.asset using Guid(a1f4f2a849321664a96a7b97e9db121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9c30886351ed02805b2ca3308ab1b1') in 0.021403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_47.asset
-  artifactKey: Guid(f42a44daff04618478022d1df7d93fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_47.asset using Guid(f42a44daff04618478022d1df7d93fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e4474437367f228144f2c3ccb08755') in 0.023955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_2.asset
-  artifactKey: Guid(d9006040957609e4f95bdfc31dcd108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_2.asset using Guid(d9006040957609e4f95bdfc31dcd108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db3e520b7eac150d3ae7da3a5ec010c') in 0.022649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_37.asset
-  artifactKey: Guid(d1e14da662bd1704799db5127b378f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_37.asset using Guid(d1e14da662bd1704799db5127b378f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791284471110f768d1f47cff1c130d2c') in 0.023156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_51.asset
-  artifactKey: Guid(7043a504017094140be1fa01dfa717bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_51.asset using Guid(7043a504017094140be1fa01dfa717bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1418aedec8fd4888ae5c730e0fe383') in 0.021371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_20.asset
-  artifactKey: Guid(1b9ff617d03155346a6eab20130ecc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_20.asset using Guid(1b9ff617d03155346a6eab20130ecc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4dc0b61feafebc092d31cd12833bed') in 0.023308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_17.asset
-  artifactKey: Guid(acce9fde8b4aed84a9fa8210fe3757df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_17.asset using Guid(acce9fde8b4aed84a9fa8210fe3757df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199ae654f89f9a5b8c0d826a94721aeb') in 0.024323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_54.asset
-  artifactKey: Guid(47a9b7526f40c8f47a550dfc1222d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_54.asset using Guid(47a9b7526f40c8f47a550dfc1222d134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d1ebaf40f0a6c77dbfef18075bb296') in 0.033146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_43.asset
-  artifactKey: Guid(079421822259542488e279100889e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_43.asset using Guid(079421822259542488e279100889e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aae06ea7f52a309dea1ef06b37cf78') in 0.030106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_48.asset
-  artifactKey: Guid(e1e674f1afad5064a893cea0a0882b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_48.asset using Guid(e1e674f1afad5064a893cea0a0882b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575a9ddd5eee11cc3e9b74c13271dd69') in 0.026167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_12.asset
-  artifactKey: Guid(b81974c96b65c1e40a6ad2299261bf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_12.asset using Guid(b81974c96b65c1e40a6ad2299261bf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961075bb76b321497d8681b6f787d991') in 0.028484 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_24.asset
-  artifactKey: Guid(8b48d4a3296b5504aaec021164bdd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_24.asset using Guid(8b48d4a3296b5504aaec021164bdd1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187b0595cba485138c8f60c04764eb4') in 0.037633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_52.asset
-  artifactKey: Guid(d85ac102040e90246bdbd3e6cf4e4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_52.asset using Guid(d85ac102040e90246bdbd3e6cf4e4b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037cf709edae0f083282f7797995d2f4') in 0.028564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_27.asset
-  artifactKey: Guid(bdeaa97c4c19e944cb6398e7614c4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_27.asset using Guid(bdeaa97c4c19e944cb6398e7614c4aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a82b2efa6147779000d70269b97952c') in 0.039855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_13.asset
-  artifactKey: Guid(353dc29505c05e44d92f1e6440848eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_13.asset using Guid(353dc29505c05e44d92f1e6440848eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3145dab0f1bc9f5148f47dee2f8f92e4') in 0.034015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_3.asset
-  artifactKey: Guid(47ca531f86e215740a6f5d742e3dce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_3.asset using Guid(47ca531f86e215740a6f5d742e3dce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e99d4c42854d85906f2d240a15d58c') in 0.026753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_53.asset
-  artifactKey: Guid(bcb23c3a488c8fa4fa6c9c579347f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset packs/Modern tiles_Free/Interiors_free/16x16/Tiles/Room_Builder_free_16x16_53.asset using Guid(bcb23c3a488c8fa4fa6c9c579347f601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a26ca0c54ccede76bcbd6be18b0f7a') in 0.032154 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
