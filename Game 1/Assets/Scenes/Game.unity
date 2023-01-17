@@ -41548,7 +41548,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 679808459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c74cb0ed2c503e54bb041389f8afafbd, type: 3}
+  m_Script: {fileID: 11500000, guid: 498dc467ad6c4c64e8ea7ec32d540792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 1756974332}
@@ -46050,7 +46050,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 769902424}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d68cf10da426824db8d970e91d3b07a, type: 3}
+  m_Script: {fileID: 11500000, guid: c7c3c7474ba83cf46ad31b5f8a0a593b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &781380382
@@ -46682,7 +46682,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -148109214, guid: a78e9897367a7f54ab94836e2ce30556, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -54972,7 +54972,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1443544644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 921bc896e2352cd4f83da5f1d8b5957c, type: 3}
+  m_Script: {fileID: 11500000, guid: 804e8fe9cb532e44f8ce8fdec2c86c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 2114777654}
@@ -55309,7 +55309,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1863732787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff7f14c68fe35ff47a0cfd5cf94b6fc5, type: 3}
+  m_Script: {fileID: 11500000, guid: ac70b3317d4a3774692abc2b6a2ea29a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   door2: {fileID: 769902429}
@@ -63373,7 +63373,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2114777652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f008bd82b5775ba43a9990d519efc3a6, type: 3}
+  m_Script: {fileID: 11500000, guid: b76967860c93a074eab69e50a22c3717, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &2114777655
